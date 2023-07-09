@@ -1,0 +1,27 @@
+{
+  "name": "rlib",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "vite build --watch",
+    "build": "vite build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "@oursky/eslint-plugin": "11.1.0",
+    "@types/node": "18.16.3",
+    "eslint": "8.40.0",
+    "react": "^18.2.0",
+    "typescript": "5.0.4",
+    "vite": "4.3.3",
+    "vite-plugin-dts": "2.3.0"
+  },
+  "peerDependencies": {
+    "react": "^16 || ^17 || ^18"
+  },
+  "main": "./dist",
+  "types": "./dist/index.d.ts"
+}

@@ -1,0 +1,17 @@
+{
+  "plugins": ["@oursky"],
+  "parserOptions": {
+    "sourceType": "module",
+    "project": "./tsconfig.json"
+  },
+  "extends": [
+    "plugin:@oursky/eslint",
+    "plugin:@oursky/oursky",
+    "plugin:@oursky/typescript",
+    "plugin:@oursky/tsdoc",
+    "plugin:@oursky/react",
+    "plugin:@oursky/react-hooks"
+  ],
+  "env": { "browser": true },
+  "ignorePatterns": ["vite.config.js", "tsconfig.json", "dist/**/*"]
+}
